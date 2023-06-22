@@ -1,0 +1,80 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+html {
+    background: rgb(255, 255, 255);
+}
+
+body{
+    height: 750px;
+    width: 750px;
+    background: linear-gradient( #c54be0, #f8e1e1);
+align-content: center;
+margin: auto;
+margin-top: 15px;
+
+}
+
+
+nav {
+
+    height: 70px;
+    width: 750px;
+    background: rgb(6, 6, 6);
+    font-size: 20px;
+    float: left;
+  margin-right: 1px;
+  text-align: center;
+
+  
+}
+
+ul{
+    text-align: center;
+    margin-top: 25px;
+margin-left: 150px;
+}
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-family: Broadway;
+}
+
+nav ul li {
+    float: left;
+    text-align: center;
+    width: 160px;
+   
+}
+
+.row{
+ display: flex;
+flex-wrap:wrap ;
+margin: 10px;
+}
+.column{
+    flex: 1;
+    padding: 10px;
+}
+.container{
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+section{
+    text-align: justify;
+}
+.nombre{
+    text-align: center;
+}
+.saludo1{
+    text-align: center;
+}

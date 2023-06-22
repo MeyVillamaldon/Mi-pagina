@@ -1,0 +1,145 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    background: rgb(255, 255, 255);
+}
+
+body {
+    height: 750px;
+    width: 750px;
+    background: DarkKhaki;
+    margin: auto;
+    margin-top: 15px;
+}
+
+header {
+    height: 250px;
+    width: 750px;
+    background: rgba(237, 209, 245, 0.968);
+}
+
+#intro {
+    font-family: Broadway;
+}
+
+#banner {
+    height: 230px;
+    width: 500px;
+    background: black;
+    float: right;
+}
+
+#logo {
+    height: 125px;
+    width: 250px;
+    background: RebeccaPurple;
+    float: left;
+}
+
+#buscador {
+    height: 105px;
+    width: 250px;
+    background-image: url("imagenes/iconos_cto/barra.jpg");
+    background-size: 250px 125px;
+    background-repeat: no-repeat;
+    float: left;
+
+}
+
+#buscadorTxt {
+   padding: 1%;
+    text-align: center;
+    margin-top: 50px;
+    text-decoration: underline;
+    color: rgba(181, 153, 188, 0.968);
+    font-size: 14px;
+    margin-left: 7%;
+   
+
+}
+
+nav {
+    height: 50px;
+    width: 750px;
+    background: rgb(220, 109, 242);
+    font-size: 20px;
+    float: left;
+  margin-right: 15px;
+ 
+  text-align: center;
+  display: inline;
+  
+}
+
+ul{
+    text-align: center;
+margin-left: 70px;
+
+
+}
+
+nav ul {
+    list-style: none;
+    
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-family: Broadway;
+}
+
+nav ul li {
+    float: left;
+    text-align: center;
+    width: 140px;
+   
+}
+
+main {
+    height: 400px;
+    background: linear-gradient(#e66465, #9198e5);
+
+}
+
+#lado_izquierdo {
+    height: 400px;
+    width: 150px;
+    background: rgb(219, 166, 209);
+    float: left;
+   
+}
+
+article {
+    width: 500px;
+    height: 400px;
+    background: white;
+    float: left;
+}
+
+#lado_derecho {
+    height: 400px;
+    width: 100px;
+    background: rgba(231, 67, 223, 0.925);
+    float: left;
+   
+ 
+}
+
+footer {
+
+    height: 100px;
+    background: rgba(192, 113, 212, 0.873);
+    text-align: center;
+
+}
+#preg{
+    margin-top: 5px;
+    font-family: Broadway;
+}
+
+
